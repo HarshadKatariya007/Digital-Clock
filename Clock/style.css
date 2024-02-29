@@ -1,0 +1,36 @@
+body
+{
+    background-color: black;
+}
+
+.clock
+{
+    text-align: center;
+    color: white; 
+    padding: 50px;
+    margin:200px auto;
+    transform: translateY(-50%);
+    width: 50%;
+    border-radius: 20px;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 0px 1000px 50px rgb(255, 0, 0);
+}
+#time
+{
+    font-size:100px;
+    text-shadow: 10px -5px 10px rgb(255, 0, 0);
+}
+.days
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days h3,span
+{
+    font-size:30px;
+    letter-spacing:10px;
+    text-shadow:10px -5px 10px rgb(255, 0, 0) ;
+    margin-left: 20px;
+}
